@@ -3,29 +3,30 @@
 
 //  switch , churrascão 
 
- $carne = 3;
+
+
+$carne = "asinha";
 
 switch ($carne) {
-     case 1 : 
-          print ("Picanha");
+     case "picanha" : 
+          print ("coloque na grelha");
           break;
 
-          case 2 : 
-               print ("fraudinha");
+          case "fraudinha" : 
+               print ("coloque sal grosso");
                break;
 
-               case 3 :
-                    print ("chã-de-dentro");
+               case "cha-de-dentro" :
+                    print ("coloque manteiga");
                     break;
 
-                    case 4 :
-                         print ("asinha");
+                    case "asinha" :
+                         print ("coloque no espeto");
                          break;
 
                          default :
-                         print ("Se-carne");
+                         print ("Sem carne");
 
 }
-
 
 ?>
